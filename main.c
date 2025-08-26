@@ -1,6 +1,4 @@
-#include <stdio.h>
+#define POC_OS_IMPLEMENTATION
+#include "./impls/os.c"
 
-int main() {
-  printf("Hello World!");
-  return 0;
-}
+int main() { print_logo(); }
