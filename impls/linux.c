@@ -1,7 +1,7 @@
 #include "../os.h"
 #include <stdio.h>
 
-void print_logo() {
+void POC_PrintLogo() {
   printf("                    .-\"\"\"\"\"\"-.\n"
          "                  .'          '.\n"
          "                 /   O      O   \\\n"
